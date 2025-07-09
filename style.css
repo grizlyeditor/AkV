@@ -1,0 +1,29 @@
+body {
+  font-family: 'Courier New', monospace;
+}
+.btn {
+  @apply bg-blue-600 px-3 py-1 rounded hover:bg-blue-700;
+}
+.btn-green {
+  @apply bg-green-600 px-3 py-1 rounded hover:bg-green-700;
+}
+.template {
+  @apply w-full bg-gray-700 py-2 rounded hover:bg-gray-600;
+}
+.file-tree {
+  font-size: 0.9rem;
+  color: #9ae6b4;
+}
+.icon {
+  display: inline-block;
+  width: 16px;
+  margin-right: 6px;
+}
+.editor {
+  @apply w-full h-48 p-2 bg-gray-900 text-green-300 rounded-lg;
+  font-family: monospace;
+}
+.console {
+  @apply bg-black text-green-400 font-mono p-3 h-40 overflow-y-auto rounded;
+  font-size: 0.85rem;
+}
